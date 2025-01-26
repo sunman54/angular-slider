@@ -1,0 +1,11 @@
+<div class="slider-container">
+  <div class="slider-track">
+    <div 
+      class="slider-thumb" 
+      [ngStyle]="getThumbStyle()" 
+      (mousedown)="onStartDrag($event)" 
+      (touchstart)="onStartDrag($event)">
+      <span>Slide to Unlock</span>
+    </div>
+  </div>
+</div>
